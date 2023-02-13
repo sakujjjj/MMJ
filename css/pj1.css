@@ -1,0 +1,167 @@
+
+
+
+
+/* top */
+
+.top{
+display: flex;
+width: 100%;
+height: 44px;
+
+background: #1E3542;}
+
+
+
+.middle{
+  display: flex;
+  background-color: #264767;
+  flex-wrap: wrap;
+}
+.MaskgroupR{
+flex-wrap: wrap;
+width: 50%;
+height: 675px;
+left: 0px;
+top: 0px;
+background-color: rgb(139, 175, 206);
+border: 1px
+/*background: url(file:///Users/zhaoyun/Downloads/Mask%20group%E3%84%89.png);*/
+}
+
+  .morning{
+
+    width: 90%;
+    height: 27px;
+    left: 49px;
+    top: 15px;
+
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 29px;
+
+    color: #264767;
+  }
+
+  .clockR{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 33px;
+
+  }
+
+  .timeSYD{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 160px;
+
+
+
+
+    color: #264767;
+  }
+
+  .dateSYD{
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px; /* for IE */
+    font-size: min(max(3.5vw, 16px), 40px);
+    line-height: 37px;
+
+
+    color: #264767;
+  }
+
+  .infoR{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  p.item{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: SemiBold 600    ;
+    font-weight: 500;
+    flex: 1 1 200px;
+  }
+
+  p.content{
+    color: rgb(255, 255, 255);
+  }
+
+
+  .infoL{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .MaskgroupL{
+
+  width: 50%;
+  height: 675px;
+  background-color: aquamarine;
+  /*background: url(file:///Users/zhaoyun/Downloads/Mask%20group.png);*/
+  }
+
+
+
+
+/*@media (max-width:1250px) {
+    /*螢幕寬度小於1250px,套用這個區塊的css
+    .middle{
+      flex-wrap: wrap;
+    }
+    .card{
+      width:45%;
+    }
+  }*/
+
+  @media (max-width:500px){
+    .MaskgroupR{
+      width:90%;
+    }
+    .MaskgroupL{
+      width:90%;
+    }
+    .timeSYD{
+      font-size: 70px;
+    }
+
+    @media (max-width:1250px) {
+    .clockR{
+      display: block;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 33px;
+    }
+
+    .timeSYD{
+      font-size: 80px;
+    }
+    .dateSYD{
+
+    }
+  }
