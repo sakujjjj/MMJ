@@ -1,8 +1,8 @@
 <h1 align="center"> MMJ 🌱</h1>
 <p align="center"> <i>"Explore every corner between Taipei and Australia."</i> 🧭</p>
 
-👋**MMJ** is a website to see the time and weather of Australia and Taipei. You can choose Australia or Taipei to display more functions! 
-  There are more functions to be developed...
+👋**MMJ** is a website to see the time and weather of Australia and Taipei. You can choose Australia or Taipei to display more features! 
+  There are more features in development...
 
 ### ✏️figma: 
 
